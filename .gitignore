@@ -1,0 +1,10 @@
+# Ignore compiled Python bytecode
+__pycache__/
+
+# Ignore model and scaler files
+*.h5
+*.joblib
+
+# Ignore contents of data directory, but keep the directory itself
+backend/data/*
+backend/data/.*
